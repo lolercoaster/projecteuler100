@@ -7,10 +7,12 @@ import java.util.Scanner;
 public class projecteulerproblem4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         long a = 0;
         long b = 0;
         long c = scanner.nextLong();
         long d = 0;
+
         String reverse = "";
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayList<Long> arrayList1 = new ArrayList<>();
@@ -36,6 +38,7 @@ public class projecteulerproblem4 {
                 }
             }
         }
+
         Collections.sort(arrayList1);
         System.out.println(arrayList1);
         System.out.println(arrayList1.get(arrayList1.size()-1));
